@@ -1,0 +1,409 @@
+body {
+    background-color: rgba(199, 199, 199, 0.152);
+}
+
+
+
+.principal__responsive
+{
+    display: none;
+}
+
+
+
+
+
+
+.principal {
+    display: block;
+   
+
+   }
+
+   .header{
+    display: flex;
+    height: 100px;
+    position:fixed;
+    min-width: 80px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    margin-top:-1px;
+    padding: 13px;
+    z-index: 1;
+    
+    
+    
+  
+
+}
+
+
+
+.logo{
+    display: inline;
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    margin-left: 0px;
+    font-family:cursive;
+    margin-top: -10px;
+
+    
+
+
+
+}
+
+
+
+#searchlogo {
+    margin-top: -29px;
+    font-size: 13px;
+    min-width: 30px;
+    padding: 1px;
+    margin-left: 10px;
+    outline: none;
+}
+
+
+
+#search1 {
+
+    min-width: 30px;
+    margin-left: 6%;
+    font-size: 16px;
+    padding: 3px;
+    border:none;
+    outline: 1px solid black;
+    border-radius: 23px;
+    margin-top: -30px;
+
+
+
+
+}
+
+
+
+
+
+
+.nav__header {
+    margin-top:px;
+    padding: 12px;
+    margin-left:-150px;
+}
+
+.nav__header ul {
+    display: flex;
+    font-size: 10px;  
+    position: fixed;
+    margin-top:30px;
+    outline: 1px solid black;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    outline: none;
+    margin-top: 63px;
+
+
+   
+
+
+
+}
+
+
+.nav__header ul li {
+
+    padding: 5px;
+    outline: none;
+    width: 84px;
+    margin: auto;
+    border:none;
+    text-align: center;
+    list-style:none;
+    background-color: purple;
+    min-width: 25%;
+
+
+
+
+
+
+
+
+}
+
+
+.header__li a {
+
+    text-align: center;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+
+}
+
+
+
+
+
+
+.portada {
+    position:relative;
+    width:500px;
+    height: 330px;
+    margin-top:100px;
+    min-width:3px;  
+    opacity: 100%;  
+    background-color: rgb(6, 1, 1);
+
+}
+
+
+.portada img {
+    opacity: 50%;
+}
+
+
+.texto__portada {
+    color:rgb(0, 0, 0);
+    margin-top:-140px;
+    text-align: center;
+    font-size: 3em;
+    font-family: monospace;
+
+
+}
+  
+
+
+    
+    
+
+
+
+
+
+
+
+
+/*HOVERS Y ANIMACIONES*/
+
+.header__li:hover {
+    background-color: white;
+    transition: all .3s;
+    color:white;
+    cursor: pointer;
+    outline: 1px solid black;
+    max-width: 100px;
+    
+
+}
+
+
+.header__li:hover > a{
+    color:purple;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*AQUI COMIENZAN LOS ESTILOS PARA
+EL MENU RESPONSIVE*/
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:700px)
+{
+   .principal {
+    display: none;
+   }
+
+
+   .principal__responsive {
+    display: block;
+   
+
+   }
+
+   .header__responsive{
+    display: flex;
+    height: 100px;
+    position:fixed;
+    min-width: 80px;
+    width: 100%;
+    background-color: white;
+    align-items: center;
+    margin-top:0px;
+    padding: 13px;
+    z-index: 1;
+    
+    
+    
+    
+  
+
+}
+
+
+
+.logo__responsive{
+    display: inline;
+    color:rgb(0, 0, 0);
+    font-size: 15px;
+    margin-left: 0px;
+    font-family:cursive;
+    margin-top: -30px;
+
+    
+
+
+
+}
+
+
+
+#search {
+    margin-top: -29px;
+    font-size: 13px;
+    min-width: 30px;
+    padding: 1px;
+    margin-left: 10px;
+    outline: none;
+}
+
+
+
+#search__responsive {
+
+    min-width: 30px;
+    margin-left: 6%;
+    font-size: 16px;
+    padding: 3px;
+    border:none;
+    outline: 1px solid black;
+    border-radius: 23px;
+    margin-top: -30px;
+
+
+}
+
+
+
+
+
+
+
+
+.nav__header-responsive ul {
+    display: flex;
+    font-size: 10px;  
+    position: fixed;
+    margin-top:78px;
+    outline: 1px solid black;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    outline: none;
+
+
+
+
+
+   
+
+
+
+}
+
+
+.nav__header-responsive ul li {
+
+    padding: 5px;
+    outline: none;
+    width: 84px;
+    margin: auto;
+    border:none;
+    text-align: center;
+    list-style:none;
+    background-color: purple;
+    min-width:25%;
+
+
+
+
+
+
+
+}
+
+
+.header__li-responsive a {
+
+    text-align: center;
+    text-decoration: none;
+    color:white
+}
+
+
+
+
+
+
+
+
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+/*HOVERS Y ANIMACIONES*/
+
+.header__li-responsive:hover {
+    background-color: white;
+    outline: 1px solid black;
+    transition: all.3s;
+    color:purple;
+    cursor: pointer;
+    outline: 1px solid black;
+   
+
+}
+
+
+.header__li-responsive > a:hover{
+    color:purple;
+
+    
+}
+
+
+
+
+
